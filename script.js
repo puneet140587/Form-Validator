@@ -18,7 +18,7 @@ function showSuccess(input) {
   formControl.className = 'form-control success';
 }
 
-// Check for valid Email
+// Check for valid Email prior refactoring
 /* function validateEmail() {
   const re =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -74,7 +74,7 @@ form.addEventListener('submit', function (e) {
   e.preventDefault();
 
   /* 
-//  Very basic style form validations
+//  Very basic style form validations prior refactoring
   if (username.value === '') {
     showError(username, 'username is required');
   } else {
